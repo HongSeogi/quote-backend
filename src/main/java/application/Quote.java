@@ -27,7 +27,7 @@ public class Quote {
     @PostMapping("/quote")
     public QuoteResponse score(@RequestBody QuoteRequest request) {
 
-        logger.info("LiNA3 =========== POC ======  Received request - " + request.toString());
+        logger.info("18181818LiNA3 =========== POC ======  Received request - " + request.toString());
 
         // Build health score request
         HealthScoreRequest hs = new HealthScoreRequest();
